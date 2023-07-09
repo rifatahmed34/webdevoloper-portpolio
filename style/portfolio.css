@@ -1,0 +1,64 @@
+/* sheard style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-title{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+nav >li{
+   
+    margin-right: 50px;
+    padding: 0 200px;
+    
+}
+.hire{
+    width: 100px;
+    font-size:15px;
+    color: var(--white-color, #FFF);
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    pading: 15px 35px;
+    background: #cf6112
+
+
+}
+nav >a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(253, 248, 248);
+    margin-right: 501 px;
+    
+}
+nav >ul{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    gap: 20px
+    
+}
+header{
+    background-color: aliceblue;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 300px;
+height: 350px;
+}
